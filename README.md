@@ -19,3 +19,5 @@ pin 20 -> 3.3V (Vdd)
 
 pin 17 (RTC Interrupt Generation) -> Arduino pin 2 or 3 or Atmega pin 4 or 5 (Interrupt 0/1)
 
+NOTE: The PCF2127 requires 1.8V to 4.2V for operation.  The Arduino Uno operates at 5V so I had converted an Arduino Uno from 5V to 3.3V to utilize with the PCF2127.  I used the technique described at https://learn.adafruit.com/arduino-tips-tricks-and-techniques/3-3v-conversion to convert an Arduino Uno to 3.3V.
+
