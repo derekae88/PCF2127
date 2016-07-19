@@ -456,7 +456,7 @@ void PCF2127::disableCountdownTimer() {
  * 
  *	Function name : byte2bcd
  *  
- *	Returns :		None
+ *	Returns :		byte
  *  
  *	Parameters :	byte num -> The value to convert to binary coded decimal.
  * 
@@ -471,9 +471,9 @@ byte PCF2127::byte2bcd (byte num) {
  * 
  *	Function name : bcd2byte
  *  
- *	Returns :		byte num -> The value to convert to a byte.
+ *	Returns :   byte
  *  
- *	Parameters :	None
+ *	Parameters :	byte num -> The value to convert to a byte.
  * 
  *	Purpose :	Converts a binary coded decimal value to byte.
  * 
